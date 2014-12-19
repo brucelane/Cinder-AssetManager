@@ -143,7 +143,7 @@ protected:
     };
     
     //! VariadicLoader Helper. Allows to dynamically call a variadic function with N parameters.
-    template <uint N, typename T>
+    template <uint32_t N, typename T>
     struct VariadicHelper
     {
         //! VariadicLoader Helper start point (<N-1,...>)
